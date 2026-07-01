@@ -1,0 +1,254 @@
+{
+  "app_identity": {
+    "name": "zico",
+    "category": "AI necklace styling",
+    "build_profile": {
+      "locale": "en-US",
+      "visual_theme": "soft editorial gold"
+    }
+  },
+  "home_feed": {
+    "headline": "Weekly Inspiration",
+    "collections": [
+      {
+        "id": "modern_choker",
+        "title": "The Modern Choker Revival",
+        "mood": "clean",
+        "palette": [
+          "cream",
+          "onyx",
+          "warm gold"
+        ]
+      }
+    ]
+  },
+  "style_taxonomy": {
+    "lengths": [
+      "choker",
+      "princess",
+      "matinee",
+      "layered"
+    ],
+    "materials": {
+      "metals": [
+        "gold",
+        "silver"
+      ],
+      "accents": [
+        "pearl",
+        "jade",
+        "crystal"
+      ]
+    }
+  },
+  "portrait_input": {
+    "source": "camera_upload",
+    "guidance": {
+      "face_visible": true,
+      "plain_lighting": true,
+      "neckline_visible": true
+    }
+  },
+  "necklace_reference": {
+    "source": "gallery_upload",
+    "analysis": {
+      "chain_shape": "curved links",
+      "pendant_count": 0,
+      "shine_level": "medium"
+    }
+  },
+  "ai_generation": {
+    "model_origin": "in_house",
+    "third_party_model_used": false,
+    "task": {
+      "mode": "necklace_try_on",
+      "quality": "editorial"
+    }
+  },
+  "privacy_defaults": {
+    "personal_data_required": false,
+    "sale_of_data": false,
+    "ad_profile_use": false
+  },
+  "credit_wallet": {
+    "balance": 126,
+    "unit_name": "credits",
+    "usage": {
+      "try_on_result": 8,
+      "style_variation": 4
+    }
+  },
+  "result_gallery": {
+    "items": [
+      {
+        "id": "look_001",
+        "title": "Pearl neckline balance",
+        "saved": true,
+        "tags": [
+          "pearl",
+          "minimal"
+        ]
+      }
+    ]
+  },
+  "stylist_chat": {
+    "persona": "Lina",
+    "tone": "warm concise",
+    "sample_reply": {
+      "intent": "pairing_help",
+      "text": "A short pearl strand keeps attention near the collarbone."
+    }
+  },
+  "trend_board": {
+    "season": "summer evening",
+    "signals": {
+      "popular_shapes": [
+        "riviere",
+        "omega",
+        "drop pendant"
+      ],
+      "color_notes": [
+        "ivory",
+        "champagne"
+      ]
+    }
+  },
+  "profile_preferences": {
+    "preferred_length": "princess",
+    "metal_tone": "gold",
+    "comfort": {
+      "weight": "light",
+      "skin_contact": "smooth"
+    }
+  },
+  "outfit_context": {
+    "neckline": "open collar",
+    "fabric": "silk shirt",
+    "occasion": {
+      "type": "dinner",
+      "formality": "smart casual"
+    }
+  },
+  "recommendation_engine": {
+    "ranking": {
+      "fit_score": 92,
+      "contrast_score": 84,
+      "occasion_score": 88
+    },
+    "reason_codes": [
+      "neckline_match",
+      "skin_tone_warmth"
+    ]
+  },
+  "visual_adjustments": {
+    "scale": 1.02,
+    "position": {
+      "x": 0.5,
+      "y": 0.62
+    },
+    "lighting_blend": "soft"
+  },
+  "collection_detail": {
+    "cover": "cream portrait necklace",
+    "editorial_note": {
+      "title": "Quiet shine",
+      "body": "A fine chain adds polish without crowding the neckline."
+    }
+  },
+  "saved_filters": {
+    "material_group": "pearls",
+    "length_group": "short",
+    "occasion_group": "daily"
+  },
+  "notification_copy": {
+    "generation_done": "Your necklace look is ready.",
+    "credits_low": "Add credits to keep styling."
+  },
+  "purchase_catalog": {
+    "packs": [
+      {
+        "id": "starter_pack",
+        "credits": 80,
+        "display_price": "$1.99"
+      }
+    ],
+    "restore_available": true
+  },
+  "safety_policy": {
+    "blocked_content": [
+      "nonconsensual image use",
+      "identity deception"
+    ],
+    "image_permission_required": true
+  },
+  "localization": {
+    "primary_language": "English",
+    "supported": [
+      "English",
+      "Simplified Chinese"
+    ],
+    "currency_region": "US"
+  },
+  "accessibility": {
+    "dynamic_type_ready": true,
+    "contrast_target": "AA",
+    "alt_text_pattern": "Necklace style visual with outfit context"
+  },
+  "empty_states": {
+    "gallery": {
+      "title": "No saved looks yet",
+      "action_label": "Create a necklace look"
+    }
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "key": "upload",
+        "title": "Add your photo"
+      },
+      {
+        "key": "choose_style",
+        "title": "Pick a necklace mood"
+      }
+    ]
+  },
+  "analytics_summary": {
+    "private_aggregation": true,
+    "events": {
+      "generation_completed": 12,
+      "style_saved": 5
+    }
+  },
+  "cache_policy": {
+    "temporary_image_hours": 24,
+    "generated_history_days": 30,
+    "manual_delete_available": true
+  },
+  "support": {
+    "email": "support@zzico.click",
+    "topics": {
+      "billing": "credits",
+      "privacy": "photo handling",
+      "quality": "styling result"
+    }
+  },
+  "device_capabilities": {
+    "camera_needed": false,
+    "photo_library_needed": true,
+    "network_needed": true
+  },
+  "content_cards": {
+    "layout": "two_column_masonry",
+    "card_ratio": {
+      "portrait": "4:5",
+      "detail": "1:1"
+    }
+  },
+  "release_notes": {
+    "version": "1.0",
+    "highlights": {
+      "ai_try_on": "Necklace placement visual",
+      "inspiration": "Curated style feed"
+    }
+  }
+}
